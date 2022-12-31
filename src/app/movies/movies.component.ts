@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Movies } from '../movie.datasource';
+
 
 @Component({
   selector: 'app-movies',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./movies.component.css']
 })
 export class MoviesComponent {
+title="Movie list";
+movies=Movies;
 
 }
